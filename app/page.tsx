@@ -60,7 +60,9 @@ export default function Home() {
             transition={{ delay: 0.6, duration: 0.6 }}
           >
             <Button className="text-lg px-8 py-4 rounded-2xl shadow-lg">
+              <Link href={"/home"}>
               Shop Now
+              </Link>
             </Button>
           </motion.div>
         </div>

@@ -24,8 +24,8 @@ export default function Navbar() {
             ))}
           </div>
         </div>
-        <span className="cursor-pointer">Cart</span>
-        <span className="cursor-pointer">Login / Signup</span>
+        <span className="cursor-pointer"><Link href="/cart">Cart</Link></span>
+        <span className="cursor-pointer"><Button>Get Started</Button></span>
       </nav>
       <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden">
         <Menu size={24} />

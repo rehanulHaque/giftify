@@ -8,12 +8,12 @@ export const categoryData = [
 ]
 
 export const fakeProductData = [
-    {id: 1, title: "Product 1", link: "", description: "Short product description goes here.", transitionId: 1, imgSrc: ""},
-    {id: 2, title: "Product 2", link: "", description: "Short product description goes here.", transitionId: 2, imgSrc: ""},
-    {id: 3, title: "Product 3", link: "", description: "Short product description goes here.", transitionId: 3, imgSrc: ""},
-    {id: 4, title: "Product 4", link: "", description: "Short product description goes here.", transitionId: 1, imgSrc: ""},
-    {id: 5, title: "Product 5", link: "", description: "Short product description goes here.", transitionId: 2, imgSrc: ""},
-    {id: 6, title: "Product 6", link: "", description: "Short product description goes here.", transitionId: 3, imgSrc: ""},
+    {id: 1, title: "Product 1", link: "", description: "Short product description goes here.", transitionId: 1, image: "/images/product1.jpg", price: 29.99},
+    {id: 2, title: "Product 2", link: "", description: "Short product description goes here.", transitionId: 2, image: "/images/product2.jpg", price: 29.99},
+    {id: 3, title: "Product 3", link: "", description: "Short product description goes here.", transitionId: 3, image: "/images/product3.jpg", price: 29.99},
+    {id: 4, title: "Product 4", link: "", description: "Short product description goes here.", transitionId: 1, image: "/images/product4.jpg", price: 29.99},
+    {id: 5, title: "Product 5", link: "", description: "Short product description goes here.", transitionId: 2, image: "/images/product5.jpg", price: 29.99},
+    {id: 6, title: "Product 6", link: "", description: "Short product description goes here.", transitionId: 3, image: "/images/product1.jpg", price: 29.99},
 ]
 
 
